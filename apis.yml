@@ -1,8 +1,15 @@
 aid: enlitic
 name: Enlitic
-description: 'Enlitic is a company surfaced as a portfolio company of amplify-partners, dcvc and added
-  to the API Evangelist network as a stub for enrichment. Sector: digital-biology. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Enlitic is a healthcare AI company building the Curie platform to standardize,
+  anonymize, and manage medical imaging data across radiology and enterprise imaging
+  workflows. Its products include ENDEX for real-time DICOM data standardization and
+  enrichment, ENCOG for automated PHI/PII anonymization of imaging data, Migratek for
+  large-scale imaging data migration, and Ensight for imaging data management and analytics.
+  Enlitic serves radiologists, imaging IT teams, executives, and researchers to improve
+  imaging data quality, interoperability, and operational efficiency. Enlitic does not
+  currently publish a public developer API, SDK, or developer portal; integration is
+  delivered through its products and a customer support portal. Backed by Amplify Partners
+  and DCVC.'
 url: https://raw.githubusercontent.com/api-evangelist/enlitic/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +18,31 @@ x-backed-by:
 - dcvc
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://enlitic.com/wp-content/uploads/Enlitic-Logo-White-R.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Digital Biology
+- Healthcare
+- Medical Imaging
+- Radiology
+- Artificial Intelligence
+- DICOM
+- Data Standardization
+- Anonymization
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +50,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/enlitic-domain-security.yml
 - type: Website
   url: https://enlitic.com
+- type: Support
+  url: https://support.enlitic.com/
+- type: Blog
+  url: https://enlitic.com/category/blogs/
+- type: PrivacyPolicy
+  url: https://enlitic.com/privacy-policy/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
